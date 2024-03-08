@@ -41,6 +41,7 @@ is_list = lists|length > 0 %} {%set is_right = rights|length > 0 %}
         </dd>
         {% endfor %}
       </dl>
+      {% endif %}
       {% if user['pass_plus'] == "" or user["pass_plus"] is none %}
       <br /><strong>Mot de passe Plus :</strong> Non {%else %} <br /><strong
         >Mot de passe Plus :</strong
